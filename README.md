@@ -5,11 +5,11 @@ Simple python script to convert excel files to dep.
 * Install Python 3.+ in https://www.python.org/downloads/
 * Then run the command below in the terminal after installing python:
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 OR
 ```
-python -m pip install requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## Usage
