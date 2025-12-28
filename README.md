@@ -1,7 +1,12 @@
 # dep
 Simple python script to convert excel files to dep.
 
-## Requirements
+## Installation
+### With releases [RECOMMENDED]
+* Download latest release (only the dep.zip file) here: https://github.com/JuanMBZ/dep/releases
+* Extract zip file then proceed to usage.
+
+### With python [OPTIONAL]
 * Install Python 3.+ in https://www.python.org/downloads/
 * Then run the command below in the terminal after installing python:
 ```
