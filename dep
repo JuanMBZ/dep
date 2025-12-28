@@ -13,7 +13,8 @@ args = parser.parse_args()
 
 try:
     excel_book = pd.ExcelFile(args.excel_file)
-except:
+except Exception as e:
+    print(e)
     print("Excel file not found or incorrect file location. Exiting...")
     exit(1)
 
