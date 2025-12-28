@@ -14,8 +14,11 @@ python -m pip install requirements.txt
 
 ## Usage
 Open terminal in same directory as the downloaded scripts then call the script by typing:
-`dep "excel_file"`  
-* excel_file = path to excel file. (ctl-shift-c in windows to get path)  
+```
+dep "excel_file"
+```  
+* excel_file = path to excel file. (ctl-shift-c in windows to get path)
+  
 More detailed info below:
 ```
 usage: dep [-h] [-s [SHEET ...]] [-c COLUMN] [-z ZEROES] [-u] excel_file
@@ -33,4 +36,4 @@ options:
                         Add inputted number of zeroes to the left of EMP_ACCTNO
   -u, --sheetname       Sets output file names to their correspinding sheet name. Default uses the excel file's name.
 ```
-* Square brackets are optional and can be left out
+* Items with square brackets are optional and can be left out
